@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Doctor-finder-web/static/css/main.8e5de21e.css",
+    "main.js": "/Doctor-finder-web/static/js/main.f3774841.js",
+    "static/js/787.4133ee52.chunk.js": "/Doctor-finder-web/static/js/787.4133ee52.chunk.js",
+    "static/media/young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg": "/Doctor-finder-web/static/media/young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.d7ce7f4ed7548deaa3aa.jpg",
+    "static/media/Stethoscope_Smiling_Handsome_Male_Doctor_PNG-removebg-preview.png": "/Doctor-finder-web/static/media/Stethoscope_Smiling_Handsome_Male_Doctor_PNG-removebg-preview.b9bb8b7ae4fa63806b8f.png",
+    "static/media/-removebg-preview.png": "/Doctor-finder-web/static/media/28b183599b55d67d8bfc120bd294c80c-removebg-preview.8bca49e99c562d70c131.png",
+    "index.html": "/Doctor-finder-web/index.html",
+    "main.8e5de21e.css.map": "/Doctor-finder-web/static/css/main.8e5de21e.css.map",
+    "main.f3774841.js.map": "/Doctor-finder-web/static/js/main.f3774841.js.map",
+    "787.4133ee52.chunk.js.map": "/Doctor-finder-web/static/js/787.4133ee52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e5de21e.css",
+    "static/js/main.f3774841.js"
+  ]
+}
