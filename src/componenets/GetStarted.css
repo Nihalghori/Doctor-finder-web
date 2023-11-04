@@ -1,0 +1,76 @@
+/* Default styles for .get-started section */
+.get-started {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg); /* Specify the background image for this section */
+   
+    
+    background-size: cover;
+   
+    width: 100%;
+    height: 100vh;
+  }
+
+  .get-started h1 {
+    font-size: 4vw; /* Responsive font size based on the viewport width */
+    color: #ffffff;
+    margin-top: 14%; /* Responsive margin using percentages */
+    margin-left: -40%; /* Responsive margin using percentages */
+  }
+  
+  .get-started p {
+    font-size: 2vw; /* Responsive font size based on the viewport width */
+    color: #929191;
+    margin-top: -3%; /* Responsive margin using percentages */
+    margin-right: 30.5%; /* Responsive margin using percentages */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1vw; /* Responsive font size based on the viewport width */
+    padding: 1% 4%; /* Responsive padding using percentages */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1%; /* Responsive margin using percentages */
+    margin-left: -15%; /* Responsive margin using percentages */
+  }
+
+  @media (max-width: 425px) {
+    .get-started h1 {
+        font-size: 5.5vw; /* Adjust font size for small mobile screens */
+        margin-top: 35%; /* Adjust margin based on your design */
+        margin-left: -8%; /* Adjust margin based on your design */
+    }
+
+    .get-started p {
+        font-size: 3.2vw; /* Adjust font size for small mobile screens */
+        margin-top: 1%; /* Adjust margin based on your design */
+        margin-left: 28%; /* Adjust margin based on your design */
+    }
+
+    .get-started button {
+        font-size: 4.2vw; /* Adjust font size for small mobile screens */
+        margin-top: 1%; /* Adjust margin based on your design */
+        margin-left: 32%; /* Adjust margin based on your design */
+    }
+    .get-started
+        {
+            background-size: cover;
+            width: 100%;
+            height: 140vh;
+            background-position: center; /* Adjust the background size for smaller screens */
+          }
+    
+  }
+
+
+
+
+
+
+

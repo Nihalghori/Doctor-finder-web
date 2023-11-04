@@ -1,0 +1,103 @@
+/* Base styles for the .container */
+.container {
+    background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Sign-In Page Container */
+  .loginForm {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(87, 85, 85, 0.7);
+    position: absolute;
+    top: 150px;
+    left: 40%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Center the container horizontally */
+  }
+  
+  .heading2 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .signupForm p {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Sign-In Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  /* Form Input Fields */
+  .loginForm input {
+    margin: 10px auto; /* Center the input fields horizontally */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px; /* Limit the maximum width for smaller screens */
+  }
+  
+  /* Sign-In Button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 200px; /* Limit the maximum width for smaller screens */
+    margin: 10px auto; /* Center the button horizontally */
+  }
+  
+  /* Links (e.g., "Forgot password?" or "Create an account") */
+  .signin-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* Styling for Links */
+  .signin-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .signin-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .loginForm {
+      width: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+
+    }
+    .container {
+        background-size: cover;
+        width: 100%;
+        height: 140vh;
+        background-position: center;
+        background-size: fixed; /* Adjust the background size for smaller screens */
+      }
+  }
+  

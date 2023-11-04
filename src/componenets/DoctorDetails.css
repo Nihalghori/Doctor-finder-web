@@ -1,0 +1,267 @@
+.DoctorDetails{
+    
+   
+    background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+}
+.detailsimg{
+    margin-left: 280px;
+    border: 2px solid #045200 ;
+   background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: 160px;
+}
+.details h2{
+    font-size: 50px;
+    margin-left: 600px;
+    position: absolute;
+    top: 160px;
+}
+.details p{
+    font-size: 50px;
+    margin-left: 600px;
+    position: absolute;
+    top: 210px;
+}
+.details h3{
+    font-size: 30px;
+    margin-left: 600px;
+    position: absolute;
+    top: 300px;
+}
+.details h4{
+    font-size: 19px;
+    margin-left: 600px;
+    position: absolute;
+    top: 350px;
+}
+.button2{
+    
+    margin-left: 600px;
+    position: absolute;
+    top: 420px;
+    width: 290px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5vw; /* Responsive font size based on the viewport width */
+    padding: 20px; /* Responsive padding using percentages */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.details{
+   border: 2px solid black;
+   background: rgba(87, 85, 85, 0.7);
+   height: 580px;
+}
+.back-button{
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1vw; /* Responsive font size based on the viewport width */
+    padding: 20px; /* Responsive padding using percentages */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-align: none;
+}
+link{
+    text-decoration: none;
+}
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .detailsimg {
+        width: 40%;
+        height: 50%;
+        margin-left: 10px;
+    }
+
+    .details h2 {
+        font-size: 28px;
+        margin-left: 350px;
+        font-weight: bolder;
+    }
+
+    .details p {
+        font-size: 18px;
+        margin-left: 350px;
+        margin-top: 3px;
+    }
+
+    .details h3 {
+        font-size: 25px;
+        margin-left: 350px;
+        margin-top: -40px;
+    }
+
+    .details h4 {
+        font-size: 24px;
+        margin-left: 350px;
+        margin-top: -40px;
+    }
+
+    .button2 {
+        width: 25%;
+        font-size: 15px;
+        margin-left: 350px;
+        margin-top: -70px;
+    }
+
+    .back-button {
+        width: 30%;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .DoctorDetails{
+    
+   
+        background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      height: 150vh;
+    }
+    .details{
+        
+        border: 2px solid black;
+        background: rgba(87, 85, 85, 0.7);
+        height: 750px;
+     }
+}
+/* Responsive styles for smaller screens */
+@media (max-width: 425px) {
+    .detailsimg {
+        width: 40%;
+        height: 50%;
+        margin-left: 10px;
+    }
+
+    .details h2 {
+        font-size: 22px;
+        margin-left: 200px;
+        font-weight: bolder;
+    }
+
+    .details p {
+        font-size: 18px;
+        margin-left: 200px;
+        margin-top: 3px;
+    }
+
+    .details h3 {
+        font-size: 20px;
+        margin-left: 200px;
+        margin-top: -40px;
+    }
+
+    .details h4 {
+        font-size: 20px;
+        margin-left: 200px;
+        margin-top: -40px;
+    }
+
+    .button2 {
+        width: 25%;
+        font-size: 15px;
+        margin-left: 200px;
+        margin-top: -50px;
+    }
+
+    .back-button {
+        width: 30%;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .DoctorDetails{
+    
+   
+        background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      height: 150vh;
+      width: 100%;
+    }
+    .details{
+        
+        border: 2px solid black;
+        background: rgba(87, 85, 85, 0.7);
+        height: 750px;
+     }
+}
+@media (max-width: 320px) {
+    .detailsimg {
+        width: 45%;
+        height: 60%;
+        margin-left: 10px;
+    }
+
+    .details h2 {
+        font-size: 20px;
+        margin-left: 160px;
+        font-weight: bolder;
+    }
+
+    .details p {
+        font-size: 18px;
+        margin-left: 160px;
+        margin-top: 3px;
+        font-weight: bolder;
+    }
+
+    .details h3 {
+        font-size: 25px;
+        margin-left: 160px;
+        margin-top: -40px;
+    }
+
+    .details h4 {
+        font-size: 20px;
+        margin-left: 160px;
+        margin-top: -30px;
+    }
+
+    .button2 {
+        width: 25%;
+        font-size: 10px;
+        margin-left: 160px;
+        margin-top: -40px;
+    }
+
+    .back-button {
+        width: 30%;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .DoctorDetails{
+    
+   
+        background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      height: 150vh;
+    }
+    .details{
+        
+        border: 2px solid black;
+        background: rgba(87, 85, 85, 0.7);
+        height: 750px;
+     }
+}
+/* Responsive styles for smaller screens */
+

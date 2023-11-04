@@ -1,0 +1,133 @@
+/* Background and general styles */
+.doctor-dashboard {
+  text-align: center;
+  background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Main heading */
+.main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.main-heading {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+/* Search input */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff; /* Adjust the color to match your design */
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/* List of doctors */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Doctor information */
+.doctor-image {
+  width: 200px;
+  height: 200px;
+  /* To make the image circular */
+}
+
+.doctor-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.doctor-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  list-style: black underline;
+}
+
+.doctor-specialty {
+  font-size: 20px;
+  color: #f5f1f1; /* Adjust the color to match your design */
+}
+
+.doctor-details {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 240px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #045200;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .doctor-dashboard {
+    text-align: center;
+    background-image: url('young-medical-doctor-holding-a-tablet-pc-isolated-on-gray-background-free-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .main-heading {
+    font-size: 24px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  li {
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .doctor-name {
+    font-size: 20px;
+  }
+
+  .doctor-specialty {
+    font-size: 16px;
+  }
+
+  .doctor-details {
+    font-size: 16px;
+    width: 80%;
+  }
+}
+
+  
